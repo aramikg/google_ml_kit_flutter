@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   # Update the dependency for GoogleMLKit/Translate to work with Firebase 11.0.0
   s.dependency 'GoogleMLKit/Translate', '~> 0.11.0'
-  s.dependency 'GoogleDataTransport', '~> 10.0.1'
+  s.dependency 'GoogleDataTransport', '~> 10.1'
   # Ensure google_mlkit_commons is compatible with the required version of MLKit and GoogleDataTransport
   s.dependency 'google_mlkit_commons', '~> 0.7.1'
 
